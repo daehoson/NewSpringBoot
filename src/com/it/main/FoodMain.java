@@ -81,7 +81,7 @@ public class FoodMain {
         		vo.setPoster(poster.get(i).attr("data-lazy"));
         		vo.setLink("https://www.mangoplate.com"+link.get(i).attr("href"));
         		
-        		//dao.foodCategoryInsert(vo);
+        		dao.foodCategoryInsert(vo);
         		System.out.println("==================================================");
         	}
         }catch(Exception ex){}
